@@ -1,0 +1,14 @@
+:root{
+ --background:#1E252B;
+ --button:rgba(255, 110, 48, 1);
+ --text:rgba(255, 255, 255, 0.9);
+ --smalltext:rgba(255, 255, 255, 0.55);
+ 
+}
+
+.container{
+    width: 1420px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 2px solid yellow;
+}
