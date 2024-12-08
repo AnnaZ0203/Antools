@@ -22,30 +22,41 @@ ul,li,a{
      list-style-type: none;
      text-decoration: none;
 }
+/*----------header-----*/
 .header-nav{
     display: flex;
 }
 .header-wrap{
     display:flex;
     padding-top: 34px;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-list{
     display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+
 }
 .header-list-nav{
     display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .logo{
-
 color: var(--text);
 font-family: "Poppins",sans-serif;
 font-size: 22px;
 font-weight: 600px;
 line-height: 1.5px;
-margin-right: 0 auto;
+margin-right: 0;
+margin-top: 59px;
+
 }
 
 .header-item{
+   display: flex;
    align-items: center;
    margin-right: 30px;
 
@@ -64,7 +75,7 @@ margin-right: 0 auto;
     align-items: center;
 }
 .header-button{
-   align-items: center;
+align-items: center;
 font-family: "Poppins",sans-serif;
 font-size: 16px;
 font-weight: 600px;
@@ -74,4 +85,31 @@ font-weight: 600px;
  padding: 12px 30px;
 border-radius: 8px;
 border: none;
+margin-right: auto;
+}
+/*---------main--------*/
+/*-----first-section*/
+.tools-section {
+    display: flex;
+}
+.container {
+}
+.tools-section-wrap {
+}
+
+.tools-title {
+font-family: "Poppins", sans-serif;
+font-size: 50px;
+font-weight: 500px;
+line-height: 1.4px;
+
+}
+.tools-span{
+
+}
+.tools-text {
+}
+.tools-input {
+}
+.tools-button {
 }
