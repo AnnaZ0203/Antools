@@ -94,13 +94,20 @@ margin-right: auto;
 /*-----first-section*/
 .tools-section {
     color: #fff;
-    background-image: url(./img/Illustration.png);
-    width:589px;
-    height:892px;
-    
-;
+  
+}
   
   
+.tools-image{
+width: 590px;
+height: 890px;
+background-image: url(./img/Illustration.png);
+background-repeat: no-repeat;
+position: inherit;
+float: right;
+transform: translateY(-67%);
+background-size: 500px;
+background-position: right;
 }
 
 .tools-section-wrap {
