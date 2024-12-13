@@ -36,8 +36,16 @@ ul,li,a{
     display: flex;
     margin: 0 auto;
     padding: 0 auto;
+}
+#sign{
 
 }
+#sign::after{
+    content: url(./img/chevron-down.png);
+    background-position: left;
+    background-repeat: no;
+}
+
 .header-list-nav{
     display: flex;
     align-items: center;
@@ -50,9 +58,20 @@ font-family: "Poppins",sans-serif;
 font-size: 22px;
 font-weight: 600px;
 line-height: 1.5px;
-
-
+margin-left: 40px;
 }
+
+.logo::before{
+    content: url(./img/Group\ 159.svg);
+    left: 48px;
+    top: 5.8%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
 
 .header-item{
    display: flex;
@@ -96,6 +115,12 @@ margin-right: auto;
     color: #fff;
   
 }
+.tools-section-wrap{
+
+}
+.tools-section-wrap::after{
+    content: url(./img/medsos.png);
+}
   
   
 .tools-image{
@@ -105,14 +130,14 @@ background-image: url(./img/Illustration.png);
 background-repeat: no-repeat;
 position: inherit;
 float: right;
-transform: translateY(-67%);
+transform: translateY(-60%);
 background-size: 450px;
 background-position: right;
+background-size: 601px;
 }
 
-.tools-section-wrap {
 
-}
+
  
 
 
@@ -156,8 +181,8 @@ text-align: left;
 border: 1.5px solid;
 border-radius: 15px;
 background-color: #FFFFFF1A;
-
-
+transform: translateX(-1.5%);
+margin-bottom: 100px;
 }
 .tools-button {
 align-items: center;
@@ -173,5 +198,9 @@ border: 1px;
 margin-right: auto;
 transform: translateX(-120%);
 margin-right: 15px;
-
+}
+.tools-section::after{
+    content: url(./img/search.png);
+size: 20px;
+     
 }
