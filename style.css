@@ -304,14 +304,63 @@ margin-top: 100px;
    background-color: #FF6E30;
    color: var(--text);
 }
+.popular-wrap-list{
+    margin-left: 108px;
+}
+/*---popular-images*/
+.popular-figma{
+ margin-right: 40px;
+width: 64px;
+height: 64px;
+}
+.popular-diamant{
+margin-right: 30px;
+width: 64px;
+height: 56.95px;
+}
+.popular-visualka{
+margin-right: 30px;
+width: 65px;
+height: 62.84px;
+}
+.popular-notion{
+margin-right: 30px;
+width: 64px;
+height: 64px;
+}
+.popular-slack{
+margin-right: 30px;
+width: 64.85px;
+height: 63.62px;
+}
+.popular-invision{
+margin-right: 30px;
+width: 65px;
+height: 63.82px;
+}
+/*------end------*/
+
+.popular-image-wrap{
+    display: flex;
+}
+.popular-items:hover{
+ border-radius: 20px;
+background: linear-gradient(55deg, rgba(40, 48, 54, 0.4) 0%, rgba(0, 0, 0, 0) 60%, rgba(40, 48, 54, 23) 100%);
+}
 
 /*second section*/
 .brand{
 }
 .brand-wrap{
 background-color: #2C353D33;
-border: solid 2px #ffffff54;
+border: 2px solid  #ffffff54;
 border-radius: 25px;
+border: 2px solid;
+}
+.brand-wrap:hover{
+background: linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -4.6%, rgba(255, 255, 255, 0) 96.79%);
+
+
 }
 
 .brand-title{
@@ -330,11 +379,55 @@ padding-top: 55px;
     margin-left: 82px;
     justify-content: space-between;
     padding-bottom: 56px;
-
 }
-.brand-logo-img:nth-child(1){
-   
-}
-.brand-logo-img:last-child{
 
+/*----------third section--------*/
+
+.apps-m-title {
+margin-top: 150px;
+margin-bottom: 30px;
+font-family: "Poppins",sans-serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 62.4px;
+text-align: left;
+color: var(--text);
+}
+.apps-m-undertitle {
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+color: var(--headersmaltext);
+margin-bottom: 60px;
+}
+.apps-m-button {
+color: var(--text);
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-right: 40px;
+padding-left: 40px;
+background-color: #FF6E30;
+border: none;
+border-radius: 8px;
+}
+
+
+
+
+.first-wrap{
+    margin-right: 197px;
+}
+.apps-list-wrap{
+    display: flex;
+    justify-content: flex-end;
+  align-items: flex-start;
+}
+.apps-list{
+    
 }
