@@ -166,6 +166,9 @@ background-color: #FFFFFF1A;
 transform: translateX(-1.5%);
 margin-bottom: 100px;
 }
+.tools-input:hover{
+     background: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+}
 .tools-button {
 align-items: center;
 font-family: "Poppins",sans-serif;
@@ -272,7 +275,7 @@ border: 1px;
 }
 
 .image-heart{
-    margin-right: 7px;
+    margin-right: 12px;
 }
 .image-folder{
     margin-right: 130px;
@@ -383,6 +386,10 @@ padding-top: 55px;
 
 /*----------third section--------*/
 
+.apps-wrap{
+    display: flex;
+}
+
 .apps-m-title {
 margin-top: 150px;
 margin-bottom: 30px;
@@ -420,14 +427,204 @@ border-radius: 8px;
 
 
 
-.first-wrap{
-    margin-right: 197px;
-}
-.apps-list-wrap{
+
+.apps-list{
     display: flex;
     justify-content: flex-end;
-  align-items: flex-start;
+    transform: translateY(-100%);
 }
-.apps-list{
+
+.apps-item{
+    margin-bottom: 75px;
+    margin-right: 25px;
+}
+.apps-title{
+font-family: "Poppins",sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+color: var(--text);
+margin-bottom: 3px;
+}
+
+.apps-undertitle{
+font-family: "Poppins",sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #FFA5378C;
+margin-bottom: 30px;
+}
+.apps-text{
+font-family: "Poppins",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+color: var(--headersmaltext);
+}
+
+.apps-heart{
+    margin-right: 12px;
+}
+.apps-folder{
+    margin-right: 124px;
+}
+.apps-button{
+font-family: "Poppins",sans-serif;
+font-size: 16px;
+font-weight: 600;
+ background-color: var(--background);
+color: var(--headersmaltext);
+padding-right:12px 35px;
+border-radius: 8px;
+border: 1px;
+}
+.apps-button:hover{
+background-color: #FF6E30;
+font-family: "Poppins",sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: var(--text);
+padding: 12px 35px;
+border-radius: 8px;
+border: 1px;
+}
+
+
+
+
+/*----------4 seciton------(manager)*/
+.manager{
+display: flex;
+}
+.manager-wrap{
     
+
+}
+.manager-image{
+width: 399px;
+height: 492px;
+
+}
+
+.manager-name-wrap{
+background-color:#28303633;
+width: 265px;
+height: 91px;
+border-radius: 8px;
+border: solid 1px;
+padding-right: 22px;
+padding-left: 23px;
+padding-top: 10px;
+padding-bottom: 16px;
+background: linear-gradient(96.67deg, rgba(103, 72, 72, 0.1) -5.21%, rgba(20, 161, 255, 0.082) 93.75%);
+
+}
+.manager-name{
+font-family: "Poppins", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0.015em;
+color: var(--text);
+margin-bottom: 2px;
+
+}
+
+.manager-product{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: var(--headersmaltext);
+
+}
+
+.manager-text{
+font-family: "Roboto",serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 1.5%;
+color: #FFFFFFC7;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------5 section--------(contributor)*/
+
+.contributor{
+display: flex;
+}
+
+.contributor-title{
+font-family: "Poppins",sans-serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 62.4px;
+text-align: center;
+color: var(--text);
+margin-bottom: 25px;
+margin-top: 200px;
+}
+.contributor-text{
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color: var(--headersmaltext);
+margin-bottom: 100px;
+}
+
+
+.contributor-input{
+
+width: 549px;
+height: 64px;
+outline: none;
+padding-bottom: 22px;
+padding-top: 22px;
+padding-left: 24px;
+padding-right: 50px;
+font-family: "Poppins",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5px;
+text-align: left;
+border: 1.5px solid;
+border-radius: 15px;
+background-color: #FFFFFF1A;
+margin-bottom: 100px;
+color:#FFFFFF61;
+}
+.contributor-input:hover{
+background: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+
+
+}
+.contributor-inp-wrap{
+   
+}
+.contributor-btn{
+font-family: "Poppins",sans-serif;
+font-size: 16px;
+font-weight: 600;
+background-color: #FF6E30;
+color: var(--text);
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 35px;
+padding-right: 35px;
+border: none;
+border-radius: 8px;
+transform: translateX(-110%);
 }
