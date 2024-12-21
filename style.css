@@ -416,7 +416,7 @@ ul,li,a {
   border-radius: 8px;
 }
 .apps-mb:hover{
-   background-color: #ff6e30;
+   background-color: black;
   color: var(--text);
 }
 
