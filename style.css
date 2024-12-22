@@ -518,11 +518,7 @@ ul,li,a {
 }
 
 /*----------4 seciton------(manager)*/
-.manager {
-  display: flex;
-}
-.manager-wrap {
-}
+
 .manager-image {
   width: 399px;
   height: 492px;
@@ -569,9 +565,18 @@ ul,li,a {
   line-height: 30px;
   letter-spacing: 1.5%;
   color: #ffffffc7;
+  margin-top: 135px;
+  margin-left: 57px;
+}
+.manager-wrap{
+  display: flex;
 }
 
 /*----------5 section--------(contributor)*/
+
+
+
+
 
 .contributor {
   display: flex;
@@ -648,8 +653,11 @@ ul,li,a {
 
 
 /*---------------foooterrrr----------*/
+.footer-wrap{
+  display: flex;
+}
 .footer-left {
-  margin-left: 108px;
+  margin-right: 156px;
 }
 
 .footer-logo{
@@ -678,6 +686,7 @@ padding-top: 7px;
 }
 .logo-wrap{
   margin-bottom: 25px;
+
 }
 
 .footer-title{
@@ -700,8 +709,7 @@ color: var(--headersmaltext);
      display: flex;
 }
 .address-item{
-  
-padding-bottom: 10px;
+margin-bottom: 10px;
 }
 .address-title{
 font-family: "Poppins",sans-serif;
@@ -712,15 +720,14 @@ color: var(--text);
 margin-bottom: 20px;
 margin-right: 200px;
 }
-.address-title:nth-child(2){
-  margin-right: 115px;
-}
-.address-meaning {
-font-family: "Poppins",sans-serif;
+
+.address-meaning{
+font-family: "Poppins",serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 color: var(--headersmaltext);
-margin-bottom: 10px;
+margin-bottom: 100px;
 }
+
 
