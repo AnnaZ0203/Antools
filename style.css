@@ -658,9 +658,11 @@ ul,li,a {
 /*---------------foooterrrr----------*/
 .footer-wrap{
   display: flex;
+  margin-bottom: 98px;
 }
 .footer-left {
   margin-right: 156px;
+  margin-left: 108px;
 }
 
 .footer-logo{
@@ -689,7 +691,6 @@ padding-top: 7px;
 }
 .logo-wrap{
   margin-bottom: 25px;
-
 }
 
 .footer-title{
@@ -722,16 +723,18 @@ line-height: 30px;
 color: var(--text);
 margin-bottom: 20px;
 margin-right: 200px;
+font-style: normal;
 }
 
 .address-meaning{
-  display: block;
+display: inline-block;
 font-family: "Poppins",serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 color: var(--headersmaltext);
 margin-bottom: 10px;
+font-style: normal;
 }
 
 
