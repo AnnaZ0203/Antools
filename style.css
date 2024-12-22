@@ -525,6 +525,9 @@ ul,li,a {
 }
 
 .manager-name-wrap {
+  position: relative;
+  top: 350px;
+  right: -400px;
   background-color: #28303633;
   width: 265px;
   height: 91px;
@@ -722,12 +725,13 @@ margin-right: 200px;
 }
 
 .address-meaning{
+  display: block;
 font-family: "Poppins",serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 color: var(--headersmaltext);
-margin-bottom: 100px;
+margin-bottom: 10px;
 }
 
 
