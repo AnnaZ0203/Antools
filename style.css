@@ -22,6 +22,9 @@ ul,li,a {
   text-decoration: none;
 }
 /*----------header-----*/
+
+
+
 .header-nav {
   display: flex;
 }
@@ -102,6 +105,14 @@ ul,li,a {
 /*-----first-section*/
 .tools-section {
   color: #fff;
+}
+.image-wrap{
+  position: absolute;
+}
+.tools-image{
+  position: relative;
+  top: 60px;
+  left: 812px;
 }
 .tools-section-wrap {
 }
@@ -518,6 +529,32 @@ ul,li,a {
 }
 
 /*----------4 seciton------(manager)*/
+
+.manager-chevron{
+  position: absolute;
+}
+.s-left{
+  position: relative;
+  top: 240px;
+  left: 70px;
+
+}
+.s-right{
+position: relative;
+left: 1180px;
+top: 240px;
+}
+
+
+.kavichki-wrap{
+  position: absolute;
+}
+
+.kavichki-img{
+position: relative;
+left: 691px;
+top: 75px;
+}
 
 .manager-image {
   width: 399px;
