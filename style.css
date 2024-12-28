@@ -67,6 +67,9 @@ ul,li,a {
   align-items: center;
   margin-right: 30px;
 }
+.header-link:hover{
+  color: var(--text);
+}
 .header-item:last-child {
   margin-right: 200px;
 }
@@ -103,6 +106,9 @@ ul,li,a {
 }
 /*---------main--------*/
 /*-----first-section*/
+.span-tools{
+  color: var(--button);
+}
 .tools-section {
   color: #fff;
 }
@@ -351,7 +357,11 @@ ul,li,a {
     rgba(40, 48, 54, 23) 100%
   );
 }
+.image-heart:active{
+  background-image: url(./img/redheart.png);
+  background-repeat: no-repeat;
 
+}
 /*second section*/
 .brand {
 }
@@ -479,6 +489,11 @@ ul,li,a {
 
 .apps-heart {
   margin-right: 12px;
+}
+.apps-heart:active{
+  background-image: url(./img/redheart.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .apps-folder {
   margin-right: 124px;
