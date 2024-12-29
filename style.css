@@ -11,7 +11,7 @@ body {
   width: 1420px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 2px solid yellow;
+  border: ;
 }
 h1,h2,h3,h4,button,li,a,p,img {
   margin: 0;
@@ -121,6 +121,7 @@ ul,li,a {
   left: 812px;
 }
 .tools-section-wrap {
+  margin-bottom: 100px;
 }
 .tools-section-wrap::after {
   content: url(./img/medsos.png);
