@@ -23,7 +23,17 @@ ul,li,a {
 }
 /*----------header-----*/
 
-
+/*@media (min-width: 1200px) {
+  .hero {
+    background-image: url(../../images/desk-header.png);
+    padding-bottom: 246px;
+  }
+}
+@media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../../images/desk-header@2x.png);
+  }
+}*/
 
 .header-nav {
   display: flex;
